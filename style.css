@@ -1,0 +1,76 @@
+body{
+    font-family: "Open Sans";
+}
+.header-image img{
+    height: 1.1rem;
+    padding:40px;
+}
+.main-section{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1 {
+    font-family: Poppins;
+    padding: 0 40px;
+    text-align: center;
+}
+.main-section img{
+    width: 600px;
+    display:flex;
+    justify-content: center;
+}
+.main-section p{
+    width: 60%;
+    text-align: center;
+}
+.sign-up-form {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.input {
+    display:flex;
+    justify-content: center;
+    padding-bottom: 40px;
+    height: 2rem;
+    border-radius: 5px;
+}
+button {
+    margin-left: 10px;
+    border-radius: 5px;
+}
+.social {
+    display:flex;
+}
+.social i {
+    padding-right: 1rem;
+}
+footer {
+    padding: 60px 60px 40px 60px;
+    background-color: hsl(192, 100%, 9%);
+    color: white;
+    display:flex;
+    justify-content: space-between;
+}
+.footerLeft img{
+    padding-bottom: 30px;
+    height: 1.3rem;
+}
+.footerRight{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+    font-size: .8rem;
+    
+}
+.footerRight ul {
+    list-style-type: none;
+    display: flex;
+}
+.footerRight li{
+    padding-left: 1rem;
+        
+    
+}
